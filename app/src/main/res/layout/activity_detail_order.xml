@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DetailOrderActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:id="@+id/txtDonHangg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đơn hàng"
+                android:padding="3dp"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:textColor="#093aec"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                >
+                <TextView
+                    android:id="@+id/txtNgayDat"
+                    android:layout_weight="6"
+                    android:layout_width="0dp"
+                    android:padding="3dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txtTrangThaiii"
+                    android:layout_weight="4"
+                    android:layout_width="0dp"
+                    android:textSize="12sp"
+                    android:textColor="#26ffd0"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtNgayThanhToan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:textSize="12sp"
+                />
+
+            <View android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#ff5353"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Địa chỉ giao hàng"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:id="@+id/txtNameUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                />
+            <TextView
+                android:id="@+id/txtPhoneUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                />
+            <TextView
+                android:id="@+id/txtAddressUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                />
+
+            <View android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:background="#ff5353"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="Danh sách sản phẩm"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:id="@+id/tbSanPham"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:stretchColumns="*"
+                android:background="@drawable/cell_table"
+                android:layout_marginBottom="5dp"
+                android:padding="2dp"
+                >
+
+            </TableLayout>
+
+            <View android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:background="#ff5353"
+                android:padding="3dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:text="Tổng cộng ("/>
+                <TextView
+                    android:id="@+id/txtSoLuongDetailOrder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="5"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:text="Sản phẩm )"/>
+
+                <TextView
+                    android:id="@+id/txtTongTien"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:textColor="#ff0000"
+                    android:textStyle="bold"
+                    android:text="500.000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:text="Phí vận chuyển"/>
+                <TextView
+                    android:id="@+id/txtTienShip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="#ff0000"
+                    android:textStyle="bold"
+                    android:text="0đ"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:text="Tổng cộng"/>
+                <TextView
+                    android:id="@+id/txtTongCongTien"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff0000"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:text="520.000"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

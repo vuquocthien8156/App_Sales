@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">App_Sales</string>
+    <string name="title_home">Trang chủ</string>
+    <string name="title_list">Danh mục</string>
+    <string name="title_cart">Giỏ hàng</string>
+    <string name="title_user">Tài khoản</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_btnNam">Thời trang nam</string>
+    <string name="text_btnNu">Thời trang nữ</string>
+    <string name="hint_search">Tìm kiếm</string>
+    <string name="undertant">Hiểu hong nè</string>
+    <string name="txtCart">Giỏ hàng đang trống</string>
+    <string name="buttoncart">Tiếp tục mua hàng</string>
+    <string name="ThanhtoanCart">Thanh Toán</string>
+    <string name="ThemVaoGioHang">Thêm vào giỏ hàng</string>
+    <string name="Cart">Giỏ hàng</string>
+    <string name="Timdine">Nhập tên sản phẩm</string>
+    <string name="SoluongSheet">Chọn số lượng</string>
+    <string name="themthanhcong">Thêm thành công</string>
+    <string name="dengiohang">Đến giỏ hàng</string>
+    <string name="thulai">Thử lại</string>
+    <string name="themthatbai">Thêm thất bại</string>
+    <string name="XoaThatBai">Xóa thất bại xin thử lại</string>
+    <string name="DangXuat">Đăng xuất</string>
+    <string name="ErrorUser">Bạn chưa nhập Email</string>
+    <string name="ErrorPass">Bạn chưa nhập Password</string>
+    <string name="ErrorName">Bạn chưa nhập tên</string>
+    <string name="ErrorPhone">Bạn chưa nhập số điện thoại</string>
+    <string name="ErrorPassConfirm">Bạn chưa xác nhập Password</string>
+    <string name="Xacnhan">Xác nhận</string>
+    <string name="Huy">Hủy</string>
+    <string name="XacNhanPassword">Xác nhận mật khẩu</string>
+    <string name="ChonHinh">Chọn hình</string>
+    <string name="ChupHinh">Chụp hình</string>
+    <string name="lichsudonhang">Lịch Sử Đơn Hàng</string>
+    <string name="yeuthich">Yêu Thích</string>
+    <string name="kiemtra">Kiểm tra</string>
+    <string name="dathangthanhcong">Đặt hàng thành công</string>
+    <string name="themthatbaivuilongthulai">Đặt hàng thất bại vui lòng thử lại</string>
+    <string name="bancomuonghichugikhong">Bạn có muốn ghi chú gì không?</string>
+    <string name="chuanhapdiachi">Bạn chưa có địa chỉ giao hàng</string>
+
+
+</resources>

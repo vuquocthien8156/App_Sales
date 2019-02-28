@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/shape_item_lv"
+    >
+
+        <ImageView
+            android:id="@+id/imgYeuThich"
+            android:layout_width="64dp"
+            android:layout_height="72dp"
+            android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/txtNameYeuThich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Tên"
+                android:layout_toRightOf="@id/imgYeuThich"
+                android:layout_marginLeft="15dp"
+                android:padding="3dp"/>
+
+            <TextView
+                android:id="@+id/txtGiaYeuThich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Giá"
+                android:layout_toRightOf="@id/imgYeuThich"
+                android:layout_below="@id/txtNameYeuThich"
+                android:textColor="#f40606"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <ImageButton
+                android:id="@+id/btnBoThich"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/bothich"
+                android:background="#70f7f7f7"
+                android:scaleType="centerCrop"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/txtNameYeuThich"/>
+
+</RelativeLayout>

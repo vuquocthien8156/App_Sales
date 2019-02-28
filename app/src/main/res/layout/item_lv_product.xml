@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/shape_item_lv">
+
+    <ImageView
+        android:id="@+id/imgCart"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/txtNameCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Tên"
+        android:textStyle="italic|bold"
+        android:layout_toRightOf="@id/imgCart"
+        android:layout_marginLeft="15dp"
+        android:padding="3dp"/>
+
+    <TextView
+        android:id="@+id/txtGiaCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Giá"
+        android:layout_toRightOf="@id/imgCart"
+        android:layout_below="@id/txtNameCart"
+        android:textColor="#f40606"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

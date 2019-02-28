@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_weight="9.2"
+        android:layout_height="0dp"
+        >
+        <TextView
+            android:id="@+id/txtfra2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/txtCart"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/btnTieptuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/buttoncart"
+            android:layout_gravity="center"
+            />
+
+            <com.baoyz.swipemenulistview.SwipeMenuListView
+                android:id="@+id/lvCart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="10dp"
+                />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="0.8"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <TextView
+            android:id="@+id/txtTongtien"
+            android:layout_weight="6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#e2dada"
+            android:gravity="center"
+            android:text="0đ"
+            android:textColor="#f54949"
+            android:textSize="16dp"
+            android:textStyle="bold"
+             />
+
+        <Button
+            android:id="@+id/btnThanhToan"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#ff8282"
+            android:text="@string/ThanhtoanCart"
+            />
+    </LinearLayout>
+
+</LinearLayout>
